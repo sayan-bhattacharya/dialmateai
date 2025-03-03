@@ -227,7 +227,7 @@ async def main():
     await init_db()
 
     # Initialize bot
-    application = Application.builder().token("7779193710:AAGNCIaMyURhGwerx6wTc_dUUDMfzNDLjyk").build()
+    application = Application.builder().token("TOKEN-TELE").build()
 
     # Add command handlers
     application.add_handler(CommandHandler("start", start_command))
