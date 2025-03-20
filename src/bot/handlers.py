@@ -7,7 +7,7 @@ from telegram.ext import (
     MessageHandler,
     filters
 )
-from src.models.user import User
+from dialmateai.dialmate.src.models.user_profile import User
 from datetime import datetime
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):

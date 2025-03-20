@@ -14,7 +14,7 @@ settings = Settings()
 # src/core/database.py
 from motor.motor_asyncio import AsyncIOMotorClient
 from beanie import init_beanie
-from src.models.user import User
+from dialmateai.dialmate.src.models.user_profile import User
 from src.models.conversation import Conversation
 from src.models.analysis import Analysis
 
